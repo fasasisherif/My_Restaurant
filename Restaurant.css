@@ -1,0 +1,151 @@
+body{
+				margin:0px;
+				padding:0px;
+				font-family:caladea;
+				}
+
+#head{
+				position:relative;
+				color:white;
+				}
+
+.amain{
+			 
+				}
+
+.bmain{
+				position: absolute;
+				top:20px;
+				font-size:45px;
+				color:white;
+				font-family:"Dancing Script";
+				animation:he 3s ease-in 0s infinite;
+				}
+
+.cmain{
+				position: absolute;
+				top:60px;
+				font-size:40px;
+				color:white;
+				animation-name:she;
+				}
+				
+@keyframes he {
+				0%{ translate(-40px 0px);}
+				20%{ translate(40px 0px);}
+				}
+				
+.navbar0{
+				background-color:blue;
+				padding:25px 0px 25px	 0px;
+				}
+
+.navbar{
+				width:305px;
+				padding:15px;
+				margin:auto;
+				text-align:center;
+				display:flex;
+				flex-direction:column;
+				background-color:green;
+				justify-content:space-between;
+				align-item:center;
+				border-radius:10px;
+				}
+
+.link{
+				display:flex;
+				justify-content:space-around;
+				}
+				
+.center{
+				display:block;
+				margin:auto;
+				}
+				
+.first0{
+				background-colo:brown;
+				padd
+				}
+
+.first{
+				background-color:#efefef;
+				width:270px;
+				height:215px;
+				margin:auto;
+				padding:20px;
+				margin-top:40px;
+				text-align:center;
+				border-radius:5px;
+				}
+
+.second{
+				background-color:#acacac;
+				width:280px;
+				padding:20px;
+				margin:auto;
+				margin-top:40px;
+				text-align:center;
+				border-radius:2px;
+				}
+
+.bfirst , .bsecond{
+				font-size:30px;
+				font-family:serif;
+				text-align:center;
+				}
+
+.csecond{
+				font-weight:light;
+				font-size:17px;
+				text-align:center;
+				}
+				
+.dsecond{
+				font-size:25px;
+				}
+				
+.flex2{
+				margin-top:40px;
+				height:160px;
+				display:flex;
+				flex-direction:column;
+				justify-content:space-around;
+				}
+				
+footer{
+				padding:20px;
+				background-color:blue;
+				display:flex;
+				justify-content:center;
+				}
+
+.six{
+				margin:auto;
+				width:40px;
+				height:40px;
+				}
+
+.third{
+				background-color:grey;
+				margin:auto;
+				
+				display:flex;
+				flex-direction:column;
+				justify-content:space-around;
+				text-align:center;
+				padding-bottom:30px;
+				}
+
+button{
+				background-color:black;
+				color:white;
+				border-radius:10px;
+				siz:20px;
+				width:160px;
+				height:50px;
+				}
+				
+.athird{
+				margin:40px 0px 30px 0px;
+				}
