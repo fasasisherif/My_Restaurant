@@ -1,0 +1,325 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<!--<link rel="stylesheet" href="./css/Restaurant.css">-->
+<meta initial-scale="1.0" width="device-width">
+<link href="https://fonts.googleapis.com/css2?family=Caladea:ital@1&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+				margin:0px;
+				padding:0px;
+				font-family:caladea;
+				overflo: hidden;
+				}
+				
+header{
+								overflow:hidden;
+								}
+
+.amain{
+			 overflo:hidden;
+				}
+
+.bmain{
+				top:10px;
+				right:240px;
+				font-size:45px;
+				color:white;
+				font-family:"Dancing Script";
+				animation:he 3s 1;
+				overflo:hidden;
+				color:red;
+				}
+
+.cmain{
+				positio: absolute;
+				top:50px;
+				right:150px;
+				font-size:40px;
+				color:white;
+				animation:she 3s 1;
+				text-align: center;
+				overflo:hidden;
+				color:red;
+				}
+				
+@keyframes he {
+				0%{ transform:translateX(50%),translateY(20px);}
+				1%{transform:translateX(-400px);}
+				40%{transform:translateX(620px);}
+				100%{transform:translateX(70%);}
+				}
+				
+@keyframes she {
+				0%{ transform:translateX(1200px);}
+				40%{transform:translateX(-220px);}
+				100%{transform:translateX(50%);}
+				}
+				
+.navbar0{
+				background-color:blue;
+				padding:25px 0px 25px	 0px;
+				}
+
+.navbar{
+				width:305px;
+				padding:15px;
+				margin:auto;
+				text-align:center;
+				display:flex;
+				flex-direction:column;
+				background-color:green;
+				justify-content:space-between;
+				align-item:center;
+				border-radius:10px;
+				}
+
+.link{
+				display:flex;
+				justify-content:space-around;
+				}
+				
+.center{
+				display:block;
+				margin:auto;
+				}
+
+.first{
+				background-color: ;
+				width:270px;
+				height:215px;
+				margin:auto;
+				padding:20px;
+				margin-top:40px;
+				text-align:center;
+				border-radius:5px;
+				}
+
+.second{
+				background-color: ;/**acacac**/
+				width:280px;
+				padding:20px;
+				margin:auto;
+				margin-top:40px;
+				text-align:center;
+				border-radius:2px;
+				}
+
+.bfirst , .bsecond{
+				font-size:30px;
+				font-family:serif;
+				text-align:center;
+				}
+
+.csecond{
+				font-weight:light;
+				font-size:17px;
+				text-align:center;
+				}
+				
+.dsecond{
+				font-size:25px;
+				}
+				
+.flex2{
+				margin-top:40px;
+				height:160px;
+				display:flex;
+				flex-direction:column;
+				justify-content:space-around;
+				}
+				
+footer{
+				padding:20px;
+				background-color:blue;
+				display:flex;
+				justify-content:center;
+				}
+
+.six{
+				margin:auto;
+				width:40px;
+				height:40px;
+				}
+
+.third{
+				background-color:grey;
+				margin:auto;
+				
+				display:flex;
+				flex-direction:column;
+				justify-content:space-around;
+				text-align:center;
+				padding-bottom:30px;
+				}
+
+button{
+				background-color:black;
+				color:white;
+				border-radius:10px;
+				siz:20px;
+				width:160px;
+				height:50px;
+				}
+				
+.athird{
+				margin:40px 0px 30px 0px;
+				}
+				
+@media(min-width:768px){
+				.first{
+								width:300px ;
+								background-color:;
+								}
+				.second{
+								width:900px;
+								background-color:;
+								display:flex;
+								flex-direction:row;
+								flex-wrap:wrap;
+								justify-content:space-around;
+								}
+				.myflex{
+								display:flex;
+								background-color:;
+								flex-direction:column;
+								justify-content: space-around;
+								align-items: space-around;
+								}
+				.order1{
+								order:1;
+								}
+				.order2{
+								order:2;
+								}
+				.order3{
+								order:3;
+								}		
+				.myflex{
+								order:5
+								}		
+				.navbar{
+								width:70%;
+								}
+				.bmain{
+								font-size:100px;
+								}
+				.cmain{
+								font-size:70px;
+								top:120px;
+								}
+								
+				}
+				
+
+
+</style>
+
+
+</head>
+<body>
+<header id="head">
+<img src="./img/Crux_building.jpg" alt=" picture" width="100%" height="300px">
+<div class="amain">
+<div class="bmain">Welcome to</div>
+<div class="cmain">THE CRUX KITCHEN<br>
+FACTORY
+</div>
+</div>
+</header>
+
+<div class=" navbar0">
+<nav class="navbar">
+<div><a href="#">HOME</a></div>
+<div class="link">
+<div><a href="#">OUR DISHES</a></div>
+<div><a href="#">ABOUT US</a></div>
+</div>
+</nav>
+</div>
+
+<article class="first">
+<span class="bfirst"> OUR OFFER </span>
+<p>
+We provide world-class service to our customers.
+The food of your wish is found here. Tap the button to find your beloved food. 
+</p>
+</article>
+
+
+<section class="second">
+<div class="order2">
+<span class="bsecond">FOODS WE SERVE</span>
+
+<p><span class="csecond">NIGERIAN VARIETIES</span></p>
+<img class="center" src="./img/nigerian_group.png"  alt=" Nigerian foods " width="260px" >
+</div>
+
+<div class="order1">
+<p><span class="csecond">AMERICAN VARIETIES</span></p>
+<img class="center" src=" ./img/american_group.png "  alt=" American foods " width="260px" >
+</div>
+
+<div class="order3">
+<p><span class="csecond">KOREAN VARIETIES</span></p>
+<img class="center" src=" ./img/korean_group.png "  alt="  " width="260px">
+</div>
+
+<div class="myflex">
+<div >
+<p><span class="csecond"> REFRESHMENT & APPETIZERS </span></p>
+<img class="center" src=" ./img/appetizer_group.png "  alt="  "width="260px">
+</div>
+
+
+<div class="flex2">
+<div><span class="dsecond"> OUR LOCATION </span>
+</div>
+
+<div>
+E-mail: fasasisherif@gmail.com
+</div>
+<div>
+<a href="  ">Place your Orders </a></div>
+<div>We are flexible enough 😊 to receive orders too
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="third">
+<div class="athird">
+<button> Meal Varieties </button>
+</div>
+<div class="bthird">
+Get ready to swim in the delight. 
+</div>
+<div class="bthird">
+We do our best to please our customers.
+Their satisfaction is our priority.
+</div>
+</section>
+</div>
+
+
+<footer>
+<div>
+<a href="https://www.sololearn.com/ ">
+<img class="six" src=" https://www.sololearn.com/Uploads/icons/sololearn.png" alt="Sololearn img">
+</a>
+<a href="  ">
+<img class="six" alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png"/>
+</a>
+<a href="  ">
+<img class="six" alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png" />
+</a>
+</div>
+
+</footer>
+</body>
+
+
+</html>
